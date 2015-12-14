@@ -4,11 +4,11 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='mltools',
+setup(name='mltoolkit',
       version='0.1',
       description='some modelling tools',
       long_description=readme(),
-      url='https://github.com/tounnas/mltools',
+      url='https://github.com/tounnas/mltoolkit',
       author='tounnas',
       author_email='',
       license='new BSD',

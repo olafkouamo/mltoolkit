@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #Imports
-from mltools.tuning import tune, hp
+from mltoolkit.tuning import tune, hp
 import numpy as np
 
 from sklearn.cross_validation import train_test_split
