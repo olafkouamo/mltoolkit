@@ -1,6 +1,6 @@
 Machine Learning Tools
 ========
-mltools
+mltoolkit
 --------
 
 #Installation
@@ -30,8 +30,8 @@ You can then clone the root env like this `conda create --name datasc --clone ro
 ##Install the mltools library
 
 ```
-git clone https://github.com/tounnas/mltools.git;
-cd mltools;
+git clone https://github.com/tounnas/mltoolkit.git;
+cd mltoolkit;
 pip install . --upgrade
 ```
 
