@@ -25,9 +25,9 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 
-# Get the long description from the relevant file
-with codecs.open('DESCRIPTION.rst', encoding='utf-8') as f:
-    long_description = f.read()
+# # Get the long description from the relevant file
+# with codecs.open('DESCRIPTION.rst', encoding='utf-8') as f:
+#     long_description = f.read()
 
 
 setup(
@@ -41,10 +41,11 @@ setup(
         'bson>=0.4.0',
         'networkx>=1.8.1',
         # IO-related packages
-        'sklearn>=0.0',
+        'scikit-learn>=0.14.1',
+        'sklearn',
         'argparse>=0.0',
         'multiprocessing',
-        'hyperopt'
+        'hyperopt',
         'pymongo>=2.7.2',
     ],
     tests_require=[
@@ -57,11 +58,11 @@ setup(
     dependency_links=[
     ],
 
-    description="Automated pricing math part.",
-    long_description=long_description,
+    # description="Machine learning tools package.",
+    # long_description=long_description,
 
     license='',
-    author="Thomas Ounaas.",
+    author="Thomas Ounnas.",
     author_email="",
     url="",
     download_url='',
