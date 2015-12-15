@@ -31,7 +31,7 @@ with codecs.open('DESCRIPTION.rst', encoding='utf-8') as f:
 
 
 setup(
-    name='adk-rulesgen',
+    name='mltoolkit',
     version=find_version('mltoolkit', '__init__.py'),
 
     install_requires=[
