@@ -1,20 +1,32 @@
 from setuptools import setup, find_packages
 
+from mltoolkit import __version__ as current_version
+from mltoolkit import __author__ as author
+
+
 def readme():
     with open('README.md') as f:
         return f.read()
 
 setup(name='mltoolkit',
-      version='0.1',
-      description='some modelling tools',
+      version=current_version,
+      description='Some modelling tools',
       long_description=readme(),
+      classifiers=[
+          'Development Status :: 3 - Alpha',
+          'Environment :: Console',
+          'Operating System :: OS Independent',
+          'Intended Audience :: Data Practitioner',
+          'Programming Language :: Python :: 2.7',
+          'Topic :: Machine Learning'
+      ],
       url='https://github.com/tounnas/mltoolkit',
-      author='tounnas',
+      author=author,
       author_email='',
       license='new BSD',
       packages=find_packages(),
-      install_requires=['numpy', 'sklearn', 'argparse', 'multiprocessing', 'hyperopt'] +
-                       ['bson', 'pymongo', 'networkx', 'scipy'],
+      install_requires=['numpy', 'scikit-learn', 'argparse', 'multiprocessing', 'hyperopt'] +
+                       ['bson', 'pymongo', 'networkx'],
       test_suite='nose.collector',
       tests_require=['nose'],
       scripts=[],
