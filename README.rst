@@ -71,3 +71,15 @@ Utilisation
 
 Have a look to the examples folder
 
+
+License
+#######
+BSD
+
+
+Documentation
+#############
+
+You can find the official documentation `here`_.
+
+.. _here: http://mltoolkit.readthedocs.org/en/latest/index.html
