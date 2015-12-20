@@ -1,22 +1,36 @@
-.. mltoolkit documentation master file, created by
-   sphinx-quickstart on Sun Dec 20 17:00:03 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to mltoolkit's documentation!
 =====================================
 
-Contents:
+This library is a collection of tool machine learning package, in order to assist you in your daily modelling
+
+The code is open source, and `available on github`_.
+
+
+.. _available on github: https://github.com/tounnas/mltoolkit
+
+
+Table of contents
+=================
+
+* :ref:`install`
+* :ref:`packages`
+
+
+.. _install:
 
 .. toctree::
-   :maxdepth: 2
+:maxdepth: 2
+:caption: Installation
+
+install_from_binstar
+install_from_source
 
 
+.. _packages:
 
-Indices and tables
-==================
+.. toctree::
+:maxdepth: 2
+:caption: Available Packages
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   tuning
+   evaluation
