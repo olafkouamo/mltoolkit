@@ -19,18 +19,18 @@ Table of contents
 .. _install:
 
 .. toctree::
-:maxdepth: 2
-:caption: Installation
+   :maxdepth: 2
+   :caption: Installation
 
-install_from_binstar
-install_from_source
+   install_from_binstar
+   install_from_source
 
 
 .. _packages:
 
 .. toctree::
-:maxdepth: 2
-:caption: Available Packages
+   :maxdepth: 2
+   :caption: Available Packages
 
    tuning
    evaluation
