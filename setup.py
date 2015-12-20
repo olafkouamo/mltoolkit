@@ -20,7 +20,7 @@ setup(name='mltoolkit',
           'Programming Language :: Python :: 2.7',
           'Topic :: Scientific/Engineering'
       ],
-      url='https://pypi.python.org/pypi/mltoolkit',
+      url='http://mltoolkit.readthedocs.org/en/latest/index.html',
       download_url="https://github.com/tounnas/mltoolkit",
       author=author,
       author_email='',
