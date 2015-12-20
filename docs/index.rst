@@ -1,7 +1,7 @@
 Welcome to mltoolkit's documentation!
 =====================================
 
-This library is a collection of tool machine learning package, in order to assist you in your daily modelling
+This library is a collection of machine learning tool packages, in order to assist you in your daily modelling
 
 The code is open source, and `available on github`_.
 
