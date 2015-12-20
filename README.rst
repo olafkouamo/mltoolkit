@@ -33,16 +33,10 @@ Activate your environment
     source activate datasc
 
 
-
 Install the mltools library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    git clone https://github.com/tounnas/mltoolkit.git
-    
-    cd mltoolkit
-    
-    pip install . --upgrade
-
+    conda install --channel https://conda.anaconda.org/tounnas mltoolkit
 
 Utilisation
 ###########
