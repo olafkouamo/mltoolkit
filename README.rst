@@ -34,9 +34,27 @@ Activate your environment
 
 
 Install the mltools library
+===========================
+
+From Binstar (Anaconda.org)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     conda install --channel https://conda.anaconda.org/tounnas mltoolkit
+
+
+From source
+^^^^^^^^^^^
+
+    conda install conda-build
+
+    git clone git@github.com:tounnas/mltoolkit.git
+
+    cd mltoolkit/_build
+
+    conda build .
+
+    conda install --use-local mltoolkit
+
 
 Utilisation
 ###########
